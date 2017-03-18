@@ -1,5 +1,36 @@
-#banner {
-	background-image: url("images/bgtile.png");
-	background-repeat: repeat-x;
-	color: blue;
+
+.container {
+background-image: url('../images/bgtile.png');
+}
+
+
+
+.bold1 {
+	font-size: 30px;
+}
+
+
+#google {
+	background-image: url("../images/badge-android.png");
+}
+
+
+
+ul {
+	
+	color: #125688;
+	list-style-type: none;
+}
+
+li {
+	display: inline;
+	font-size: 12px;
+}
+
+footer {
+	bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    padding: 0 0 12px;
 }
