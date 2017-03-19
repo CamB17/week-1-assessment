@@ -1,18 +1,39 @@
+
+
+
+
 body{
-	font: 15px Arial, Helvetica, sans-serif;
-	
+	font: 10px Arial, Helvetica, sans-serif;
+	margin: auto;
+	max-width: 100%;
 
 }
 
 header {
 	background-image: url("../images/bgtile.png");
+	 position: relative;
+  	z-index: 1;
+  	height: 400px;
 }
 
-.button {
-	background-color: #466c90;
-	color: #466c90;
-
+header button{
+	background-color: #466C90;
+	color: #f4f4f6;
+	border-radius: 3px;
+	border: #030303;
+	height: 25px;
+	width: 90px;
 }
+
+.brand{
+	display: inline;
+	padding-left: 700px;
+	padding-top: 250px;
+	
+	
+}
+
+
 
 .banner {
   
@@ -21,10 +42,17 @@ header {
   text-align: center;
   font-weight: 650;
   font-size: 18px;
-  z-index: 4;
 }
 
 
+.phones {
+ 
+  position: relative;
+  z-index: 2;
+  top: -190px;
+  left: 80px;
+
+}
 
 
 
@@ -46,4 +74,10 @@ footer {
     width: 100%;
     text-align: center;
     padding: 0 0 12px;
+}
+
+footer li {
+	height: 100px;
+	display: inline;
+	font-size: 10px;
 }
