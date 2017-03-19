@@ -1,18 +1,30 @@
+body{
+	font: 15px Arial, Helvetica, sans-serif;
+	
 
-.container {
-background-image: url('../images/bgtile.png');
+}
+
+header {
+	background-image: url("../images/bgtile.png");
+}
+
+.button {
+	background-color: #466c90;
+	color: #466c90;
+
+}
+
+.banner {
+  
+  height: 200px;
+  color: white;
+  text-align: center;
+  font-weight: 650;
+  font-size: 18px;
+  z-index: 4;
 }
 
 
-
-.bold1 {
-	font-size: 30px;
-}
-
-
-#google {
-	background-image: url("../images/badge-android.png");
-}
 
 
 
@@ -20,16 +32,17 @@ ul {
 	
 	color: #125688;
 	list-style-type: none;
+	
 }
 
 li {
 	display: inline;
 	font-size: 12px;
+	
 }
 
 footer {
 	bottom: 0;
-    position: fixed;
     width: 100%;
     text-align: center;
     padding: 0 0 12px;
