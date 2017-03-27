@@ -2,7 +2,7 @@
 
 
 
-
+/*main body section*/
 body{
 	font: 10px, Arial, Helvetica, sans-serif;
 	margin: 0;
@@ -24,10 +24,11 @@ header h1{
 	display: inline;
 	font-weight: lighter;
 	padding-left: 10px;
+	text-decoration: 
 	
 }
 
-
+/*button for login*/
 .button {
 	background-color: #466C90;
 	color:#f4f4f6;;
@@ -48,7 +49,7 @@ header h1{
 	position: relative;
 	padding-right
 }
-
+/*instagram logo*/
 .brand{
 	display: inline;
 	padding-left: 475px;
@@ -68,7 +69,7 @@ header h1{
   font-size: 18px;
 }
 
-
+/*phone images in div*/
 .phones {
  
   position: relative;
@@ -81,7 +82,7 @@ header h1{
   margin: auto;
 
 }
-
+/*div for frame section and description sentences*/
 .frame {
 	display: inline-block;
 	position: relative;
@@ -99,7 +100,7 @@ header h1{
 	color: #466C90;
 	margin: 0;
 }
-
+/*first sentence section*/
 .p1{
 	position: relative;
 	left: 400px;
@@ -131,12 +132,16 @@ header h1{
 	margin: 0;
 
 }
+/*End sentence selection*/
 
+/*div for appl and google*/
 .apple {
 	position: relative;
+	display: inline;
 	left: 500px;
 	bottom: 20px;
 	top: -500px;
+
 
 }
 
@@ -145,9 +150,10 @@ header h1{
 	left: 680px;
 	bottom: 20px;
 	top: -555px;
+
 }
 
-
+/*begin footer section*/
 
 ul {
 	
@@ -167,15 +173,19 @@ footer {
     width: 100%;
     text-align: center;
     padding: 0 0 12px;
+    display: inline;
+
 }
 
 footer li {
+	text-transform: uppercase;
 	height: 100px;
 	display: inline;
 	font-size: 13px;
+	padding: 0 7px 0 7px;
 
 }
-
+/*seporate section for copyright*/
 .copyright {
 	display: inline;
 	font-size: 13px;
